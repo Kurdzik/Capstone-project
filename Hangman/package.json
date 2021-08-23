@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "format": "prettier --write hangmanGame",
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "^13.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
