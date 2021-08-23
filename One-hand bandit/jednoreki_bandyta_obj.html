@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>One hand bandit</title>
+  <link rel="stylesheet" href="style_obj.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <h1>One hand bandit</h1>
+
+    <section class="game">
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+    </section>
+
+    <section class="play">
+      <input type="number" placeholder="Place your bid" id="bid">
+      <button id="start">SPIN</button>
+    </section>
+
+    <section class="panel">Current wallet: <span class="wallet"></span></section>
+
+    <section class="score">
+      <span class="result"></span> Games played: <span class="number"></span>. Including, games won: <span class="win"></span> and games lost: <span class="loss"></span> 
+    </section>
+
+  </div>
+  <script src="jednoreki_bandyta_obj.js"></script>
+</body>
+
+</html>
